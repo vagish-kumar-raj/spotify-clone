@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap");
+    </style>
+    <script src="https://kit.fontawesome.com/5126a15d88.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="logo"><img src="assets/img/logo.png" alt="Logo" />Music</li>
+        <li><button id="home" class="topbtn">Home</button></li>
+        <li><button id="About" class="topbtn">About</button></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h1>Sleep Playlist</h1>
+      <div id="main">
+        <div class="songs">
+          <ul>
+            <li>
+              <img src="assets/img/play-solid-full.svg" alt="play" class="play" />
+              <img src="assets/img/cover.jpg" alt="Cover of Sleep" class="cover" />
+              <span>Sleep</span>
+            </li>
+            <li>
+              <img src="assets/img/play-solid-full.svg" alt="play" class="play" />
+              <img src="assets/img/cover.jpg" alt="Cover of Sleep" class="cover" />
+              <span>Deep Sleep</span>
+            </li>
+            <li>
+              <img src="assets/img/play-solid-full.svg" alt="play" class="play" />
+              <img src="assets/img/cover.jpg" alt="Cover of Sleep" class="cover" />
+              <span>Lofi Sleep</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <article class="strip">
+      <div class="icons">
+        <img src="assets/img/backward-step-solid-full.svg" alt="previous" />
+        <img src="assets/img/play-solid-full.svg" alt="play" />
+        <img src="assets/img/forward-step-solid-full.svg" alt="next" />
+      </div>
+
+      <input type="range" name="range" id="progress" min="0" max="100" />
+    </article>
+    <script src="script.js"></script>
+  </body>
+</html>
