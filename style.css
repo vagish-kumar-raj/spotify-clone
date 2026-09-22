@@ -79,18 +79,18 @@ nav ul li {
   align-items: center;
 }
 
-.strip .icons {
+.player {
   padding-bottom: 10px;
 }
 
-.strip .icons img {
+.player img {
   filter: invert(80%);
   width: 30px;
   padding: 0 15px;
   cursor: pointer;
 }
 
-.strip .icons img:hover {
+.player img:hover {
   filter: invert(100%);
   box-shadow: 0px 0px 1px #000000;
 }
@@ -98,6 +98,7 @@ nav ul li {
 #progress {
   width: 80%;
   max-width: 600px;
+  cursor: pointer;
 }
 
 main {
